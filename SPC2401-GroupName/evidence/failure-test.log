@@ -1,0 +1,14 @@
+./scripts/failure.sh: line 14:  1052 Killed                  $J kyu.grade.StudentClient watch DEAD1 > /dev/null 2>&1
+OK: published SPC2401
+== F1: server log (dead listener skipped and removed, live one notified) ==
+2026-11-15T01:23:06.601261747Z [INFO] [RMI TCP Connection(5)-127.0.0.1] publishMarks SPC2401: notifying 2 subscribers
+2026-11-15T01:23:06.609528503Z [WARN] [notifier-1] listener DEAD1 unreachable (ConnectException); removing subscription
+2026-11-15T01:23:06.629579215Z [INFO] [notifier-2] notified LIVE1 of SPC2401
+SUBSCRIBED LIVE1
+NOTIFICATION markPublished(SPC2401) LIVE1 mark=80
+== F2: stop the server, then a lecturer call ==
+2026-11-15T01:23:11.884631789Z [WARN] [main] submitMark attempt 1/3 failed: java.rmi.ConnectException: Connection refused to host: localhost
+2026-11-15T01:23:12.103883640Z [WARN] [main] submitMark attempt 2/3 failed: java.rmi.ConnectException: Connection refused to host: localhost
+2026-11-15T01:23:12.513296124Z [WARN] [main] submitMark attempt 3/3 failed: java.rmi.ConnectException: Connection refused to host: localhost
+2026-11-15T01:23:13.118472490Z [ERROR] [main] submitMark gave up after 3 attempts
+2026-11-15T01:23:13.119478575Z [ERROR] [main] Lecturer call failed: java.rmi.ConnectException: Connection refused to host: localhost; nested

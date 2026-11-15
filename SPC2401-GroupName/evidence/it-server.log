@@ -1,0 +1,8 @@
+2026-11-15T01:22:33.480439826Z [INFO] [main] GradeService bound as 'GradeService' at localhost:1099
+2026-11-15T01:22:34.684214636Z [INFO] [RMI TCP Connection(2)-127.0.0.1] subscribe KYU002 lease=60000ms
+2026-11-15T01:22:34.686341210Z [INFO] [RMI TCP Connection(3)-127.0.0.1] subscribe KYU001 lease=60000ms
+2026-11-15T01:22:35.463506082Z [INFO] [RMI TCP Connection(4)-127.0.0.1] submitMark applied req=d8237eff-4a6d-4c65-ade0-472f03fa2511 KYU001/SPC2401=78
+2026-11-15T01:22:35.729600915Z [INFO] [RMI TCP Connection(5)-127.0.0.1] submitMark applied req=bdf10cd8-353e-4ef2-b14b-f132e78c547e KYU002/SPC2401=65
+2026-11-15T01:22:36.006233702Z [INFO] [RMI TCP Connection(6)-127.0.0.1] publishMarks SPC2401: notifying 2 subscribers
+2026-11-15T01:22:36.050478971Z [INFO] [notifier-2] notified KYU001 of SPC2401
+2026-11-15T01:22:36.052311697Z [INFO] [notifier-1] notified KYU002 of SPC2401

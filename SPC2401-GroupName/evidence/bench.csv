@@ -1,0 +1,8 @@
+serverWorkers,mode,clientThreads,calls,meanLatencyMs,throughputPerSec
+1,remote,32,3200,326.327,97.5
+2,remote,32,3200,171.404,184.7
+4,remote,32,3200,133.076,235.9
+8,remote,32,3200,110.737,281.5
+16,remote,32,3200,106.744,287.2
+-,local,1,5000,0.002,364321.9
+-,remote,1,5000,0.107,9259.3

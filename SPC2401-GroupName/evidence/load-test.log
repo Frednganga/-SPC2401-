@@ -1,0 +1,2 @@
+clients=25 sent=1000 applied=1000 wrong=0 timeMs=581
+PASS: no lost update, no deadlock

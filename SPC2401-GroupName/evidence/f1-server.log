@@ -1,0 +1,7 @@
+2026-11-15T01:23:03.900652069Z [INFO] [main] GradeService bound as 'GradeService' at localhost:1099
+2026-11-15T01:23:05.135282001Z [INFO] [RMI TCP Connection(2)-127.0.0.1] subscribe LIVE1 lease=60000ms
+2026-11-15T01:23:05.139521060Z [INFO] [RMI TCP Connection(3)-127.0.0.1] subscribe DEAD1 lease=60000ms
+2026-11-15T01:23:05.812079359Z [INFO] [RMI TCP Connection(4)-127.0.0.1] submitMark applied req=762ec47b-aa82-477e-8016-fb92c5c90770 LIVE1/SPC2401=80
+2026-11-15T01:23:06.601261747Z [INFO] [RMI TCP Connection(5)-127.0.0.1] publishMarks SPC2401: notifying 2 subscribers
+2026-11-15T01:23:06.609528503Z [WARN] [notifier-1] listener DEAD1 unreachable (ConnectException); removing subscription
+2026-11-15T01:23:06.629579215Z [INFO] [notifier-2] notified LIVE1 of SPC2401

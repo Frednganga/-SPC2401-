@@ -1,0 +1,2 @@
+2026-11-15T01:27:11.416085155Z [INFO] [main] GradeService bound as 'GradeService' at localhost:1099
+2026-11-15T01:27:12.474309352Z [INFO] [RMI TCP Connection(2)-127.0.0.1] submitMark applied req=BENCH-SEED-remote B1/U1=70
